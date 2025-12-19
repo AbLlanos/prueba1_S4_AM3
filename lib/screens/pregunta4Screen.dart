@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Pregunta4screen extends StatelessWidget {
-   const Pregunta4screen({super.key});
+  const Pregunta4screen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -10,7 +10,7 @@ class Pregunta4screen extends StatelessWidget {
 }
 
 class Cuerpo extends StatelessWidget {
-   Cuerpo({super.key});
+  Cuerpo({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -27,9 +27,10 @@ Widget suero(BuildContext context) {
 
   return Column(
     children: [
+      Text(""),
       TextField(
         controller: peso,
-        decoration:  InputDecoration(
+        decoration: InputDecoration(
           border: OutlineInputBorder(),
           label: Text("Ingrese su Peso (en kilogramos)"),
         ),
@@ -37,7 +38,7 @@ Widget suero(BuildContext context) {
       Text(""),
       TextField(
         controller: ejercicio,
-        decoration:  InputDecoration(
+        decoration: InputDecoration(
           border: OutlineInputBorder(),
           label: Text("¿Haces ejercicio regularmente? (Si / No)"),
         ),
@@ -46,7 +47,7 @@ Widget suero(BuildContext context) {
 
       OutlinedButton(
         onPressed: () => calcular(peso, ejercicio, context),
-        child:  Text("Calcular gramos de proteína a consumir"),
+        child: Text("Calcular gramos de proteína a consumir"),
       ),
     ],
   );
@@ -61,21 +62,18 @@ void calcular(_peso, _ejercicio, context) {
 
   if (ejercicio.toLowerCase() == "si") {
     proteina = peso * 1.6;
-  } else {
+    mensaje = "Debe consumir los siguientes gramos de proteína: ${proteina}";
+  } else if (ejercicio.toLowerCase() == "no") {
     proteina = peso * 0.8;
+    mensaje = "Debe consumir los siguientes gramos de proteína: ${proteina}";
+  } else {
+    mensaje = "Debe ingresar un valor correcto";
   }
-
-  mensaje = "DEbe consumir los siguiente egramos de proteína: ${proteina}";
 
   showDialog(
     context: context,
     builder: (context) {
-
-      return AlertDialog(
-        title:  Text("respuesta"),
-        content: Text(mensaje),
-      );
+      return AlertDialog(title: Text("respuesta"), content: Text(mensaje));
     },
-    
   );
 }

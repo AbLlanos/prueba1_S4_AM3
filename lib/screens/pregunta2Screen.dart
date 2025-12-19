@@ -34,6 +34,7 @@ Widget formulario(context) {
 
   return Column(
     children: [
+      Text(""),
       TextField(
         controller: distancia,
         decoration:  InputDecoration(
