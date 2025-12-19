@@ -1,0 +1,564 @@
+{
+    "platillos": [
+      {
+        "id": "PL001",
+        "nombre": "Ceviche de Camarón",
+        "precio": {
+          "moneda": "USD",
+          "real": 8.50
+        },
+        "region": "Costa",
+        "ingredientes": ["Camarones", "Limón", "Cebolla", "Tomate", "Cilantro", "Sal", "Pimienta"],
+        "descripcion": "Camarones marinados en limón con cebolla, tomate y cilantro.",
+        "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/refs/heads/main/assets/images/api-menu2/ceviche-camaron.jpg",
+        "valoracion": 9,
+        "opiniones": {
+          "positivas": [
+            {
+              "opinion": "Fresco y delicioso, perfecto para el clima cálido.",
+              "usuario": "MariscosLover",
+              "fecha": "2023-08-20",
+              "puntuacion": 10
+            }
+          ],
+          "negativas": []
+        },
+        "historia": {
+          "origen": "Plato tradicional de la costa del Pacífico.",
+          "curiosidades": ["Se sirve con chifles o tostado."]
+        }
+      },
+      {
+        "id": "PL002",
+        "nombre": "Locro de Papa",
+        "precio": {
+          "moneda": "USD",
+          "real": 6.00
+        },
+        "region": "Sierra",
+        "ingredientes": ["Papas", "Queso", "Leche", "Cebolla", "Ajo", "Achiote", "Aguacate"],
+        "descripcion": "Sopa cremosa de papas con queso, servida con aguacate.",
+        "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/refs/heads/main/assets/images/api-menu2/locro-de-papas.jpg",
+        "valoracion": 8,
+        "opiniones": {
+          "positivas": [
+            {
+              "opinion": "Ideal para días fríos, muy reconfortante.",
+              "usuario": "SierraFan",
+              "fecha": "2023-09-01",
+              "puntuacion": 8
+            }
+          ],
+          "negativas": []
+        },
+        "historia": {
+          "origen": "Plato tradicional de los Andes.",
+          "curiosidades": ["Se sirve en festividades importantes."]
+        }
+      },
+      {
+        "id": "PL003",
+        "nombre": "Maito de Pescado",
+        "precio": {
+          "moneda": "USD",
+          "real": 12.00
+        },
+        "region": "Amazonia",
+        "ingredientes": ["Pescado", "Hojas de Bijao", "Achiote", "Cebolla", "Ajo", "Sal", "Pimienta"],
+        "descripcion": "Pescado envuelto en hojas de bijao y asado a la parrilla.",
+        "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/refs/heads/main/assets/images/api-menu2/maito-de-pescado.jpg",
+        "valoracion": 9.5,
+        "opiniones": {
+          "positivas": [
+            {
+              "opinion": "El sabor ahumado es increíble.",
+              "usuario": "AmazonExplorer",
+              "fecha": "2023-08-25",
+              "puntuacion": 10
+            }
+          ],
+          "negativas": []
+        },
+        "historia": {
+          "origen": "Técnica de cocción tradicional de la Amazonía.",
+          "curiosidades": ["Las hojas de bijao mantienen la humedad del pescado."]
+        }
+      },
+      {
+        "id": "PL004",
+        "nombre": "Encebollado",
+        "precio": {
+          "moneda": "USD",
+          "real": 7.00
+        },
+        "region": "Costa",
+        "ingredientes": ["Atún", "Yuca", "Cebolla", "Tomate", "Cilantro", "Limón"],
+        "descripcion": "Sopa de atún con yuca, servida con cebolla encurtida.",
+        "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/refs/heads/main/assets/images/api-menu2/encebollado.jpg",
+        "valoracion": 8.5,
+        "opiniones": {
+          "positivas": [
+            {
+              "opinion": "Perfecto para curar la resaca.",
+              "usuario": "CostaLover",
+              "fecha": "2023-07-15",
+              "puntuacion": 9
+            }
+          ],
+          "negativas": []
+        },
+        "historia": {
+          "origen": "Plato típico de la costa ecuatoriana.",
+          "curiosidades": ["Es conocido como un remedio para la resaca."]
+        }
+      },
+      {
+        "id": "PL005",
+        "nombre": "Fritada",
+        "precio": {
+          "moneda": "USD",
+          "real": 10.00
+        },
+        "region": "Sierra",
+        "ingredientes": ["Carne de cerdo", "Cebolla", "Ajo", "Comino", "Chicha", "Mote"],
+        "descripcion": "Carne de cerdo frita en su propia grasa, servida con mote.",
+        "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/refs/heads/main/assets/images/api-menu2/fritada.jpg",
+        "valoracion": 8,
+        "opiniones": {
+          "positivas": [
+            {
+              "opinion": "El sabor es único, muy auténtico.",
+              "usuario": "SierraFoodie",
+              "fecha": "2023-06-10",
+              "puntuacion": 8
+            }
+          ],
+          "negativas": []
+        },
+        "historia": {
+          "origen": "Plato tradicional de la sierra ecuatoriana.",
+          "curiosidades": ["Se sirve con mote y aguacate."]
+        }
+      },
+      {
+        "id": "PL006",
+        "nombre": "Seco de Chivo",
+        "precio": {
+          "moneda": "USD",
+          "real": 12.50
+        },
+        "region": "Costa",
+        "ingredientes": ["Carne de chivo", "Cerveza", "Cebolla", "Ajo", "Comino", "Arroz"],
+        "descripcion": "Guiso de carne de chivo cocinado con cerveza y especias.",
+        "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/refs/heads/main/assets/images/api-menu2/seco-chivo.jpg",
+        "valoracion": 9,
+        "opiniones": {
+          "positivas": [
+            {
+              "opinion": "El sabor es espectacular, muy bien preparado.",
+              "usuario": "CarnesLover",
+              "fecha": "2023-05-20",
+              "puntuacion": 9
+            }
+          ],
+          "negativas": []
+        },
+        "historia": {
+          "origen": "Plato típico de la región costera.",
+          "curiosidades": ["Se sirve con arroz y plátano maduro."]
+        }
+      },
+      {
+        "id": "PL007",
+        "nombre": "Hornado",
+        "precio": {
+          "moneda": "USD",
+          "real": 11.00
+        },
+        "region": "Sierra",
+        "ingredientes": ["Carne de cerdo", "Ajo", "Comino", "Chicha", "Mote"],
+        "descripcion": "Carne de cerdo horneada, servida con mote y tortillas.",
+        "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/refs/heads/main/assets/images/api-menu2/hornado.jpg",
+        "valoracion": 8.5,
+        "opiniones": {
+          "positivas": [
+            {
+              "opinion": "La carne está muy jugosa y bien sazonada.",
+              "usuario": "SierraMaster",
+              "fecha": "2023-04-15",
+              "puntuacion": 9
+            }
+          ],
+          "negativas": []
+        },
+        "historia": {
+          "origen": "Plato tradicional de la sierra.",
+          "curiosidades": ["Se sirve en festividades como el Día de los Difuntos."]
+        }
+      },
+      {
+        "id": "PL008",
+        "nombre": "Churrasco Ecuatoriano",
+        "precio": {
+          "moneda": "USD",
+          "real": 9.00
+        },
+        "region": "Sierra",
+        "ingredientes": ["Carne de res", "Arroz", "Papas fritas", "Huevo", "Ensalada"],
+        "descripcion": "Carne de res a la parrilla, servida con arroz, papas fritas y ensalada.",
+        "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/refs/heads/main/assets/images/api-menu2/churrasco.jpg",
+        "valoracion": 8,
+        "opiniones": {
+          "positivas": [
+            {
+              "opinion": "Muy sabroso y bien presentado.",
+              "usuario": "CarnesFan",
+              "fecha": "2023-03-10",
+              "puntuacion": 8
+            }
+          ],
+          "negativas": []
+        },
+        "historia": {
+          "origen": "Plato popular en la sierra ecuatoriana.",
+          "curiosidades": ["Se sirve con una porción generosa de papas fritas."]
+        }
+      },
+      {
+        "id": "PL009",
+        "nombre": "Empanadas de Viento",
+        "precio": {
+          "moneda": "USD",
+          "real": 2.50
+        },
+        "region": "Sierra",
+        "ingredientes": ["Masa", "Queso", "Azúcar"],
+        "descripcion": "Empanadas fritas rellenas de queso y espolvoreadas con azúcar.",
+        "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/refs/heads/main/assets/images/api-menu2/empanadas-viento.jpg",
+        "valoracion": 9,
+        "opiniones": {
+          "positivas": [
+            {
+              "opinion": "Perfectas para acompañar el café.",
+              "usuario": "DulcesLover",
+              "fecha": "2023-02-05",
+              "puntuacion": 9
+            }
+          ],
+          "negativas": []
+        },
+        "historia": {
+          "origen": "Plato típico de la sierra.",
+          "curiosidades": ["Se llaman 'de viento' por su textura esponjosa."]
+        }
+      },
+      {
+        "id": "PL010",
+        "nombre": "Tigrillo",
+        "precio": {
+          "moneda": "USD",
+          "real": 5.00
+        },
+        "region": "Costa",
+        "ingredientes": ["Plátano verde", "Huevo", "Queso", "Cebolla", "Aceite"],
+        "descripcion": "Plato hecho con plátano verde machacado, huevo y queso.",
+        "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/refs/heads/main/assets/images/api-menu2/tigrillo.jpg",
+        "valoracion": 8.5,
+        "opiniones": {
+          "positivas": [
+            {
+              "opinion": "Muy sabroso y llenador.",
+              "usuario": "CostaFoodie",
+              "fecha": "2023-01-20",
+              "puntuacion": 9
+            }
+          ],
+          "negativas": []
+        },
+        "historia": {
+          "origen": "Plato tradicional de la costa.",
+          "curiosidades": ["Es un desayuno muy popular en la región."]
+        }
+      },
+      {
+        "id": "PL011",
+        "nombre": "Cuy Asado",
+        "precio": {
+          "moneda": "USD",
+          "real": 15.00
+        },
+        "region": "Sierra",
+        "ingredientes": ["Cuy", "Ajo", "Comino", "Papas", "Mote"],
+        "descripcion": "Cuy asado al horno, servido con papas y mote.",
+        "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/refs/heads/main/assets/images/api-menu2/cuy-asado.jpg",
+        "valoracion": 8,
+        "opiniones": {
+          "positivas": [
+            {
+              "opinion": "Un plato exótico y delicioso.",
+              "usuario": "AdventurousEater",
+              "fecha": "2022-12-15",
+              "puntuacion": 8
+            }
+          ],
+          "negativas": []
+        },
+        "historia": {
+          "origen": "Plato tradicional de los Andes.",
+          "curiosidades": ["Es un plato ceremonial en algunas comunidades."]
+        }
+      },
+      {
+        "id": "PL012",
+        "nombre": "Arroz con Menestra y Carne",
+        "precio": {
+          "moneda": "USD",
+          "real": 8.00
+        },
+        "region": "Costa",
+        "ingredientes": ["Arroz", "Lentejas", "Carne de res", "Plátano maduro"],
+        "descripcion": "Arroz servido con menestra de lentejas y carne asada.",
+        "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/refs/heads/main/assets/images/api-menu2/menestra.jpg",
+        "valoracion": 8.5,
+        "opiniones": {
+          "positivas": [
+            {
+              "opinion": "Un clásico de la costa, muy sabroso.",
+              "usuario": "CostaLover",
+              "fecha": "2022-11-10",
+              "puntuacion": 9
+            }
+          ],
+          "negativas": []
+        },
+        "historia": {
+          "origen": "Plato típico de la región costera.",
+          "curiosidades": ["Se sirve con plátano maduro frito."]
+        }
+      },
+      {
+        "id": "PL013",
+        "nombre": "Caldo de Bolas",
+        "precio": {
+          "moneda": "USD",
+          "real": 6.50
+        },
+        "region": "Costa",
+        "ingredientes": ["Plátano verde", "Carne", "Maní", "Yuca", "Cebolla"],
+        "descripcion": "Sopa espesa con bolas de plátano verde rellenas de carne.",
+        "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/refs/heads/main/assets/images/api-menu2/caldo-bolas.jpg",
+        "valoracion": 8,
+        "opiniones": {
+          "positivas": [
+            {
+              "opinion": "Muy reconfortante y llenador.",
+              "usuario": "SopaLover",
+              "fecha": "2022-10-05",
+              "puntuacion": 8
+            }
+          ],
+          "negativas": []
+        },
+        "historia": {
+          "origen": "Plato tradicional de la costa.",
+          "curiosidades": ["Es un plato que se sirve en ocasiones especiales."]
+        }
+      },
+      {
+        "id": "PL014",
+        "nombre": "Yaguarlocro",
+        "precio": {
+          "moneda": "USD",
+          "real": 7.50
+        },
+        "region": "Sierra",
+        "ingredientes": ["Sangre de borrego", "Papas", "Cebolla", "Ajo", "Achiote"],
+        "descripcion": "Sopa de papas con sangre de borrego, servida con aguacate.",
+        "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/refs/heads/main/assets/images/api-menu2/yaguarlocro.jpg",
+        "valoracion": 7.5,
+        "opiniones": {
+          "positivas": [
+            {
+              "opinion": "Un plato único y lleno de sabor.",
+              "usuario": "AdventurousEater",
+              "fecha": "2022-09-20",
+              "puntuacion": 8
+            }
+          ],
+          "negativas": []
+        },
+        "historia": {
+          "origen": "Plato tradicional de la sierra.",
+          "curiosidades": ["Es un plato que se sirve en festividades."]
+        }
+      },
+      {
+        "id": "PL015",
+        "nombre": "Chocolate Caliente con Queso",
+        "precio": {
+          "moneda": "USD",
+          "real": 4.00
+        },
+        "region": "Sierra",
+        "ingredientes": ["Chocolate", "Leche", "Queso"],
+        "descripcion": "Chocolate caliente servido con queso fresco.",
+        "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/refs/heads/main/assets/images/api-menu2/chocolate.jpg",
+        "valoracion": 9,
+        "opiniones": {
+          "positivas": [
+            {
+              "opinion": "Perfecto para las tardes frías.",
+              "usuario": "ChocoLover",
+              "fecha": "2022-08-15",
+              "puntuacion": 9
+            }
+          ],
+          "negativas": []
+        },
+        "historia": {
+          "origen": "Bebida tradicional de la sierra.",
+          "curiosidades": ["El queso se derrite en el chocolate, creando una mezcla única."]
+        }
+      },
+      {
+        "id": "PL016",
+        "nombre": "Ensalada de Chochos",
+        "precio": {
+          "moneda": "USD",
+          "real": 5.50
+        },
+        "region": "Sierra",
+        "ingredientes": ["Chochos", "Tomate", "Cebolla", "Limón", "Cilantro"],
+        "descripcion": "Ensalada de chochos con tomate, cebolla y limón.",
+        "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/refs/heads/main/assets/images/api-menu2/chochos.jpeg",
+        "valoracion": 8,
+        "opiniones": {
+          "positivas": [
+            {
+              "opinion": "Muy fresca y saludable.",
+              "usuario": "HealthyEater",
+              "fecha": "2022-07-10",
+              "puntuacion": 8
+            }
+          ],
+          "negativas": []
+        },
+        "historia": {
+          "origen": "Plato tradicional de la sierra.",
+          "curiosidades": ["Los chochos son una legumbre rica en proteínas."]
+        }
+      },
+      {
+        "id": "PL017",
+        "nombre": "Cazuela de Mariscos",
+        "precio": {
+          "moneda": "USD",
+          "real": 14.00
+        },
+        "region": "Costa",
+        "ingredientes": ["Camarones", "Calamares", "Mejillones", "Pescado", "Coco", "Plátano"],
+        "descripcion": "Guiso de mariscos cocinado con leche de coco y plátano.",
+        "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/refs/heads/main/assets/images/api-menu2/cazuela-mariscos.jpg",
+        "valoracion": 9,
+        "opiniones": {
+          "positivas": [
+            {
+              "opinion": "El sabor a coco es increíble.",
+              "usuario": "MariscosFan",
+              "fecha": "2022-06-05",
+              "puntuacion": 9
+            }
+          ],
+          "negativas": []
+        },
+        "historia": {
+          "origen": "Plato típico de la costa.",
+          "curiosidades": ["Se sirve con arroz o patacones."]
+        }
+      },
+      {
+        "id": "PL018",
+        "nombre": "Chifles",
+        "precio": {
+          "moneda": "USD",
+          "real": 3.00
+        },
+        "region": "Costa",
+        "ingredientes": ["Plátano verde", "Sal", "Aceite"],
+        "descripcion": "Rodajas de plátano verde fritas y saladas.",
+        "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/refs/heads/main/assets/images/api-menu2/chifles.jpg",
+        "valoracion": 8.5,
+        "opiniones": {
+          "positivas": [
+            {
+              "opinion": "Perfectos como snack o acompañamiento.",
+              "usuario": "SnackLover",
+              "fecha": "2022-05-20",
+              "puntuacion": 9
+            }
+          ],
+          "negativas": []
+        },
+        "historia": {
+          "origen": "Snack tradicional de la costa.",
+          "curiosidades": ["Se sirven con ceviche o encebollado."]
+        }
+      },
+      {
+        "id": "PL019",
+        "nombre": "Morocho",
+        "precio": {
+          "moneda": "USD",
+          "real": 4.50
+        },
+        "region": "Sierra",
+        "ingredientes": ["Maíz morocho", "Leche", "Azúcar", "Canela"],
+        "descripcion": "Bebida espesa hecha con maíz morocho, leche y canela.",
+        "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/refs/heads/main/assets/images/api-menu2/morocho.jpg",
+        "valoracion": 8,
+        "opiniones": {
+          "positivas": [
+            {
+              "opinion": "Muy reconfortante y dulce.",
+              "usuario": "DulcesFan",
+              "fecha": "2022-04-15",
+              "puntuacion": 8
+            }
+          ],
+          "negativas": []
+        },
+        "historia": {
+          "origen": "Bebida tradicional de la sierra.",
+          "curiosidades": ["Se sirve caliente en las mañanas frías."]
+        }
+      },
+      {
+        "id": "PL020",
+        "nombre": "Canelazo",
+        "precio": {
+          "moneda": "USD",
+          "real": 5.00
+        },
+        "region": "Sierra",
+        "ingredientes": ["Aguardiente", "Canela", "Naranjilla", "Azúcar"],
+        "descripcion": "Bebida caliente con aguardiente, canela y naranjilla.",
+        "imagen": "https://raw.githubusercontent.com/jritsqmet/web-api/refs/heads/main/assets/images/api-menu2/canelazo.jpg",
+        "valoracion": 9,
+        "opiniones": {
+          "positivas": [
+            {
+              "opinion": "Perfecto para las noches frías.",
+              "usuario": "DrinkLover",
+              "fecha": "2022-03-10",
+              "puntuacion": 9
+            }
+          ],
+          "negativas": []
+        },
+        "historia": {
+          "origen": "Bebida tradicional de la sierra.",
+          "curiosidades": ["Es popular en festividades como la Fiesta de la Luz."]
+        }
+      }
+    ]
+  }
